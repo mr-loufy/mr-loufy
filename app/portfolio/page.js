@@ -3,14 +3,15 @@ export default function Portfolio() {
     <>
       <h1>Portfolio</h1>
 
-      <p>
-        Selected Amazon KDP projects across multiple niches.
+      <p style={{ maxWidth: "700px", marginBottom: "24px" }}>
+        A selection of Amazon KDP projects I have worked on across
+        different niches.
       </p>
 
       <ul>
-        <li>Built Different – Book cover and formatting</li>
-        <li>The Boy Who Spoke to the Wind – Full publishing</li>
-        <li>Multiple low and medium content books</li>
+        <li>Built Different – cover design and formatting</li>
+        <li>The Boy Who Spoke to the Wind – full publishing support</li>
+        <li>Multiple nonfiction and low content books</li>
       </ul>
     </>
   )
