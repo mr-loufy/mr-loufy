@@ -1,3 +1,5 @@
+export const runtime = "nodejs"
+
 import { NextResponse } from "next/server"
 import { v2 as cloudinary } from "cloudinary"
 
@@ -10,6 +12,10 @@ cloudinary.config({
 export async function POST(req: Request) {
   const data = await req.formData()
   const file = data.get("file") as File
+
+  if (!file) {
+    return NextResponse.json({ error: "No file" }, { status: 400 })
+  }
 
   const bytes = await file.arrayBuffer()
   const buffer = Buffer.from(bytes)
