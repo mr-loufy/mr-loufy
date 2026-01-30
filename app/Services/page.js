@@ -3,31 +3,25 @@ export default function Services() {
     <>
       <h1>Amazon KDP Services</h1>
 
-      <h3>Book Publishing</h3>
-      <p>
-        Complete Amazon KDP publishing for paperback, ebook, and hardcover.
-        From file setup to final approval.
+      <p style={{ maxWidth: "700px", marginBottom: "32px" }}>
+        End to end Amazon KDP publishing services for serious authors
+        and publishers.
       </p>
 
-      <h3>Book Formatting</h3>
-      <p>
-        Clean interior formatting that meets Amazon standards.
-        No errors. No rejections.
-      </p>
+      <h3>Complete Book Publishing</h3>
+      <p>Paperback, ebook, and hardcover publishing with full KDP support.</p>
+
+      <h3>Interior Formatting</h3>
+      <p>Clean layouts that meet Amazon guidelines and pass review.</p>
 
       <h3>Book Cover Design</h3>
-      <p>
-        Professional covers designed for visibility and conversion on Amazon.
-      </p>
+      <p>Professional covers designed for visibility and trust.</p>
 
       <h3>A Plus Content</h3>
-      <p>
-        High quality A Plus content that improves buyer trust and sales.
-      </p>
+      <p>Custom A Plus content that improves conversion.</p>
 
-      <h3>KDP Listing Optimization</h3>
-      <p>
-        Keyword research, category selection, and listing optimization.
-      </p>
+      <h3>Listing Optimization</h3>
+      <p>Keywords, categories, and backend optimization.</p>
     </>
   )
+}
