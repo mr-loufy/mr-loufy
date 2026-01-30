@@ -1,21 +1,34 @@
-export default function Home() {
+export default function Services() {
   return (
-    <main className="min-h-screen bg-white text-black p-6">
-      <h1 className="text-4xl font-bold mb-4">
-        Amazon KDP Publishing Services
-      </h1>
+    <>
+      <h1>Amazon KDP Services</h1>
 
-      <p className="text-lg mb-6">
-        I help authors publish professional books on Amazon KDP with clean formatting,
-        high converting covers, and optimized listings.
+      <h3>Book Publishing</h3>
+      <p>
+        Complete Amazon KDP publishing for paperback, ebook, and hardcover.
+        From file setup to final approval.
       </p>
 
-      <a
-        href="/contact"
-        className="inline-block bg-black text-white px-6 py-3"
-      >
-        Start Your Project
-      </a>
-    </main>
+      <h3>Book Formatting</h3>
+      <p>
+        Clean interior formatting that meets Amazon standards.
+        No errors. No rejections.
+      </p>
+
+      <h3>Book Cover Design</h3>
+      <p>
+        Professional covers designed for visibility and conversion on Amazon.
+      </p>
+
+      <h3>A Plus Content</h3>
+      <p>
+        High quality A Plus content that improves buyer trust and sales.
+      </p>
+
+      <h3>KDP Listing Optimization</h3>
+      <p>
+        Keyword research, category selection, and listing optimization.
+      </p>
+    </>
   )
 }
